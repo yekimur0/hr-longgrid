@@ -52,10 +52,7 @@ const swiper_docs_3 = new Swiper('.docs-swiper-3', {
   slidesPerView: 3,
   spaceBetween: 20, 
 
-  navigation: {
-    prevEl: '.docs-slider .prev',
-    nextEl: '.docs-slider .next'
-  },
+ 
 
   breakpoints: {
     320: {

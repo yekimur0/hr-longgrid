@@ -187,12 +187,6 @@ a {
   clip: rect(0 0 0 0);
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 var(--container-offset);
-  max-width: var(--container-width);
-}
-
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
 }
@@ -334,6 +328,12 @@ svg > * {
 }
 
 .container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.container-fluid {
   max-width: 1420px;
   padding: 0 10px;
   margin: 0 auto;
@@ -1010,7 +1010,7 @@ svg > * {
 .hirring-consult-content {
   display: flex;
   flex-direction: column;
-  padding: 60px;
+  padding: 40px;
 }
 
 .hirring-consult-image {
@@ -1103,6 +1103,10 @@ svg > * {
   display: none;
 }
 
+.hirring-idea h3 {
+  margin-top: 0;
+}
+
 @media (max-width: 992px) {
   .hirring-consult-content .title {
     font-size: 32px;
@@ -1176,5 +1180,8 @@ svg > * {
 
   .docs-slider-2 .slider-nav {
     display: flex;
+  }
+  .hirring-hero {
+    padding: 0 10px;
   }
 }
